@@ -23,7 +23,7 @@ Currently, this repo can only be built from source. To do so, clone the repo:
 Data was obtained from [Ryoji Ogata's website](http://hi.cs.waseda.ac.jp/~ogata/Dataset.html). Data preprocessing is handled in [preprocess-data.ipynb](preprocess-data.ipynb).
 
 <p align="center">
-    <img src="figures/ogata_video.png">
+    <img src="figures/ogata_video.PNG"><br />
     (left and middle) Example frames from a 2D squat video. (right) Example of 3D pose data overlayed across video. (Courtesy of [1].)
 </p>     
 
@@ -33,7 +33,7 @@ The convolutional neural network is trained and evaluated in [ogata-model.ipynb]
 
 
 <p align="center">
-    <img src="figures/confusion_matrices.png">
+    <img src="figures/confusion_matrices.PNG"><br />
     Normalized Confusion Matrices for the (left) 1D CNN and (right) LSTM.
 </p>
 
